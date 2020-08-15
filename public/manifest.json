@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+
+  "name": "ChaperONE",
+  "description": "Chrome Extension to assist in budgeting before making purchases online",
+  "version": "0.0.1",
+
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Open the popup"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["http://www.amazon.com/*", "https://www.amazon.com/*"],
+      "js": ["background/content.js"]
+    }
+  ],
+
+  "icons": {
+    "16": "logo192.png",
+    "48": "logo192.png",
+    "128": "logo192.png"
+  },
+  "content_security_policy": "script-src 'self' 'sha256-cpUxHIZVMO5FYlvmUxzg2Ub7imerXGk5Xm8qTZGiNuI='; object-src 'self'",
+  "permissions": ["storage"]
+}
