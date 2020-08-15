@@ -1,4 +1,4 @@
-# ChaperONE
+# ShopperONE
 
 ### A Chrome extension to help with impulsive online shopping
 
