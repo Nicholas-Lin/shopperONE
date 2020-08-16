@@ -3,7 +3,7 @@
 ### A Chrome extension to help with impulsive online shopping
 
 ![smart price highlighting](https://github.com/Nicholas-Lin/shopperONE/blob/master/screenshots/chaperone_search.png)
-![Purchase Warning](https://github.com/Nicholas-Lin/shopperONE/blob/master/screenshots/chaperone_prevent.png.png)
+![Purchase Warning](https://github.com/Nicholas-Lin/shopperONE/blob/master/screenshots/chaperone_prevent.png)
 
 
 This Chrome extension provides realtime visual feedback for items found on Amazon that do not fall within the user's predefined budget. By providing feedback before a purchase is made, impulsive shopping decisions are mitigated.
